@@ -130,18 +130,24 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           {/* Centered Text Content */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 -mt-4">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-<h1 className="text-4xl md:text-6xl lg:text-6xl font-extrabold text-white text-center leading-tight max-w-4xl mx-auto mb-4">
+{/* <h1 className="text-4xl md:text-6xl lg:text-6xl font-extrabold text-white text-center leading-tight max-w-4xl mx-auto mb-4">
   Your Legal Assistant <br />
   <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
     Simplified
   </span>
-</h1>
+</h1> */}
+<h1 className=" text-4xl md:text-6xl lg:text-6xl font-bold mb-8 text-white leading-tight max-w-6xl mx-auto">
+                Your Legal Assistant{' '} <br />
+                <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
+                  Simplified
+                </span>
+              </h1>
               
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}
