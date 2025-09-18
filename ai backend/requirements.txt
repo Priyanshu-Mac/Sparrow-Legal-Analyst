@@ -1,0 +1,6 @@
+google-cloud-storage
+google-cloud-firestore
+google-cloud-aiplatform
+tavily-python
+pypdf
+python-dotenv
